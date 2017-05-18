@@ -1,0 +1,38 @@
+header {
+  max-width: 100%;
+  height: 18vh;
+  background: powderblue;
+}
+
+main {
+  max-width: 70%;
+  margin: auto; /* couldnt find another way to middle this in a rush, sorry */
+  background: orange;
+  height: 88vh;
+  overflow: hidden;
+
+}
+
+article {
+  background: blue;
+  margin: 1em auto;
+  height: 22vh;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 30% 55%;
+  grid-gap: .5em;
+  justify-content: center; /* just making space around this */
+}
+.space {
+  margin-top: 35px;
+}
+.small {
+  background: pink;
+  height: 40%;
+  margin-top: 1em; /* trying to make as near as 16px but relative to web browser size */
+}
+.big {
+  background: brown;
+  height: 65%;
+  margin-top: 1em; 
+}
